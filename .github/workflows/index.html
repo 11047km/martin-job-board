@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Martin Zhang's GIS, environmental, planning and sustainability new-grad job board for Canada and the GTA." />
+  <title>Martin's GTA Environmental & GIS Job Board</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar wrap" aria-label="Main navigation">
+      <a class="brand" href="#top">MZ<span>Jobs</span></a>
+      <div class="topbar-actions">
+        <button id="themeToggle" class="icon-button" type="button" aria-label="Toggle colour theme">◐</button>
+        <a class="button secondary" href="#sources">Source health</a>
+      </div>
+    </nav>
+    <div id="top" class="hero-content wrap">
+      <div>
+        <p class="eyebrow">Toronto · GTA · Canada</p>
+        <h1>GIS, environmental, planning & sustainability jobs—ranked for Martin.</h1>
+        <p class="hero-copy">A daily-refreshed board focused on entry-level and early-career roles matching ArcGIS, geospatial data, municipal planning, environmental analysis and sustainability experience.</p>
+      </div>
+      <div class="hero-stats" aria-live="polite">
+        <div><strong id="jobCount">—</strong><span>matching jobs</span></div>
+        <div><strong id="newCount">—</strong><span>posted ≤ 7 days</span></div>
+        <div><strong id="sourceCount">—</strong><span>active sources</span></div>
+        <div><strong id="updatedAt">—</strong><span>last refresh</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap main-grid">
+    <aside class="filters" aria-label="Job filters">
+      <div class="filter-heading">
+        <h2>Filters</h2>
+        <button id="resetFilters" class="text-button" type="button">Reset</button>
+      </div>
+
+      <label class="field">
+        <span>Search</span>
+        <input id="searchInput" type="search" placeholder="GIS, ArcGIS, planner…" autocomplete="off" />
+      </label>
+
+      <label class="field">
+        <span>Location</span>
+        <select id="locationFilter">
+          <option value="all">All locations</option>
+          <option value="Toronto">Toronto</option>
+          <option value="GTA">GTA outside Toronto</option>
+          <option value="Ontario">Ontario outside GTA</option>
+          <option value="Remote Canada">Remote Canada</option>
+          <option value="Canada">Elsewhere in Canada</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Career area</span>
+        <select id="categoryFilter">
+          <option value="all">All career areas</option>
+          <option value="GIS & Geospatial">GIS & Geospatial</option>
+          <option value="Environmental">Environmental</option>
+          <option value="Planning">Planning</option>
+          <option value="Sustainability & Climate">Sustainability & Climate</option>
+          <option value="Conservation & Natural Resources">Conservation & Natural Resources</option>
+          <option value="Data & Policy">Data & Policy</option>
+        </select>
+      </label>
+
+      <fieldset>
+        <legend>Freshness</legend>
+        <label class="check"><input type="checkbox" id="freshOnly" /> Posted in last 14 days</label>
+        <label class="check"><input type="checkbox" id="openOnly" checked /> Exclude expired</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Fit</legend>
+        <label class="check"><input type="checkbox" id="newGradOnly" /> New-grad friendly</label>
+        <label class="check"><input type="checkbox" id="highMatchOnly" /> Match score ≥ 70</label>
+        <label class="check"><input type="checkbox" id="savedOnly" /> Saved jobs only</label>
+      </fieldset>
+
+      <label class="field">
+        <span>Sort</span>
+        <select id="sortOrder">
+          <option value="match">Best match</option>
+          <option value="newest">Newest first</option>
+          <option value="deadline">Deadline soonest</option>
+          <option value="company">Company A–Z</option>
+        </select>
+      </label>
+
+      <div class="coverage-note">
+        <strong>Coverage approach</strong>
+        <p>Official public job feeds and career pages, municipal feeds, Job Bank, and optional ATS/API connectors. The board avoids brittle login-gated scraping.</p>
+      </div>
+    </aside>
+
+    <section class="results" aria-labelledby="resultsHeading">
+      <div class="results-header">
+        <div>
+          <p class="eyebrow">Personalized results</p>
+          <h2 id="resultsHeading">Recommended roles</h2>
+        </div>
+        <span id="visibleCount" class="result-count"></span>
+      </div>
+
+      <div id="activeFilters" class="active-filters" aria-live="polite"></div>
+      <div id="jobList" class="job-list" aria-live="polite"></div>
+      <button id="loadMore" class="button load-more" type="button" hidden>Show more jobs</button>
+      <div id="emptyState" class="empty-state" hidden>
+        <h3>No jobs match these filters</h3>
+        <p>Try widening the location or fit settings.</p>
+      </div>
+    </section>
+  </main>
+
+  <section id="sources" class="source-section">
+    <div class="wrap">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Transparency</p>
+          <h2>Source health</h2>
+        </div>
+        <p>Each refresh records which sources worked, how many postings were found, and any degraded coverage.</p>
+      </div>
+      <div id="sourceHealth" class="source-grid"></div>
+    </div>
+  </section>
+
+  <footer class="footer wrap">
+    <p>Built for Martin Zhang · Data refreshes daily through GitHub Actions.</p>
+    <p class="muted">Always verify the posting and deadline on the employer's application page.</p>
+  </footer>
+
+  <template id="jobCardTemplate">
+    <article class="job-card">
+      <div class="job-card-top">
+        <div class="job-title-block">
+          <div class="badge-row"></div>
+          <h3><a class="job-title" target="_blank" rel="noopener noreferrer"></a></h3>
+          <p class="company-location"></p>
+        </div>
+        <button class="save-button" type="button" aria-label="Save job">☆</button>
+      </div>
+      <p class="job-summary"></p>
+      <div class="match-reasons"></div>
+      <div class="skill-row"></div>
+      <div class="job-meta"></div>
+      <div class="job-card-bottom">
+        <span class="source-label"></span>
+        <a class="apply-link" target="_blank" rel="noopener noreferrer">View posting →</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
