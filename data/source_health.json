@@ -1,0 +1,141 @@
+{
+  "generated_at": "2026-07-19T18:30:00+00:00",
+  "sources": [
+    {
+      "name": "Official career page \u00b7 City of Toronto",
+      "status": "ok",
+      "fetched": 4,
+      "kept": 4,
+      "error": null,
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Conservation Ontario careers",
+      "status": "ok",
+      "fetched": 24,
+      "kept": 2,
+      "error": null,
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Government of Canada Job Bank",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "CivicJobs.ca municipal feeds",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 City of Toronto planning",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 Ontario Public Service",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 Toronto and Region Conservation Authority",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 Credit Valley Conservation",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 Metrolinx",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 City of Mississauga",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 Region of Peel",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 Lake Simcoe Region Conservation Authority",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 Grand River Conservation Authority",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 Toronto Hydro",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 Alectra Utilities",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Official career page \u00b7 Hydro One",
+      "status": "pending",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Runs after deployment",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "Adzuna Canada (optional API)",
+      "status": "degraded",
+      "fetched": 0,
+      "kept": 0,
+      "error": "Optional credentials not configured",
+      "duration_seconds": 0.0
+    }
+  ]
+}

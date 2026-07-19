@@ -1,0 +1,117 @@
+{
+  "jobbank": {
+    "enabled": true,
+    "name": "Government of Canada Job Bank",
+    "base_url": "https://www.jobbank.gc.ca/jobsearch/jobsearch",
+    "queries": [
+      "GIS",
+      "geospatial",
+      "environmental",
+      "sustainability",
+      "planner",
+      "conservation",
+      "spatial data",
+      "land use"
+    ],
+    "locations": [
+      "Toronto, ON",
+      "Mississauga, ON",
+      "Markham, ON"
+    ],
+    "distance_km": 100,
+    "pages_per_query": 3
+  },
+  "civicjobs": {
+    "enabled": true,
+    "name": "CivicJobs.ca municipal feeds",
+    "feeds": [
+      "https://www.civicjobs.ca/rss/province.php?id=ON",
+      "https://www.civicjobs.ca/rss/pc.php?id=133",
+      "https://www.civicjobs.ca/rss/pc.php?id=98",
+      "https://www.civicjobs.ca/rss/pc.php?id=4",
+      "https://www.civicjobs.ca/rss/pc.php?id=39",
+      "https://www.civicjobs.ca/rss/pc.php?id=85",
+      "https://www.civicjobs.ca/rss/pc.php?id=176"
+    ]
+  },
+  "career_pages": {
+    "enabled": true,
+    "name": "Official employer career pages",
+    "pages": [
+      {
+        "name": "City of Toronto",
+        "url": "https://jobs.toronto.ca/jobsatcity/search/?q=GIS"
+      },
+      {
+        "name": "City of Toronto planning",
+        "url": "https://jobs.toronto.ca/jobsatcity/search/?q=planning"
+      },
+      {
+        "name": "Ontario Public Service",
+        "url": "https://www.gojobs.gov.on.ca/Jobs.aspx"
+      },
+      {
+        "name": "Toronto and Region Conservation Authority",
+        "url": "https://trca.ca/about/careers/"
+      },
+      {
+        "name": "Credit Valley Conservation",
+        "url": "https://cvc.ca/careers/"
+      },
+      {
+        "name": "Metrolinx",
+        "url": "https://www.metrolinx.com/en/about-us/careers"
+      },
+      {
+        "name": "City of Mississauga",
+        "url": "https://jobs.mississauga.ca/"
+      },
+      {
+        "name": "Region of Peel",
+        "url": "https://careers-peelregion.icims.com/jobs/intro"
+      },
+      {
+        "name": "Lake Simcoe Region Conservation Authority",
+        "url": "https://lsrca.on.ca/index.php/about-us/careers/"
+      },
+      {
+        "name": "Grand River Conservation Authority",
+        "url": "https://www.grandriver.ca/who-we-are/job-opportunities/"
+      },
+      {
+        "name": "Toronto Hydro",
+        "url": "https://www.torontohydro.com/careers"
+      },
+      {
+        "name": "Alectra Utilities",
+        "url": "https://www.alectra.com/careers"
+      },
+      {
+        "name": "Hydro One",
+        "url": "https://www.hydroone.com/careers"
+      }
+    ],
+    "detail_limit_per_page": 60
+  },
+  "adzuna": {
+    "enabled": true,
+    "name": "Adzuna Canada (optional API)",
+    "country": "ca",
+    "results_per_page": 50,
+    "pages": 3
+  },
+  "ats": {
+    "enabled": true,
+    "name": "Configured public ATS boards",
+    "greenhouse": [],
+    "lever": [],
+    "ashby": [],
+    "smartrecruiters": [],
+    "workday": []
+  },
+  "conservation_ontario": {
+    "enabled": true,
+    "name": "Conservation Ontario careers",
+    "url": "https://conservationontario.ca/careers"
+  }
+}

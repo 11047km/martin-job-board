@@ -1,0 +1,221 @@
+{
+  "generated_at": "2026-07-19T18:30:00+00:00",
+  "profile": "Martin Zhang",
+  "count": 6,
+  "jobs": [
+    {
+      "id": "toronto-eng-tech-63012",
+      "title": "Engineering Technologist Technician 3",
+      "company": "City of Toronto",
+      "location": "Toronto, ON",
+      "url": "https://jobs.toronto.ca/jobsatcity/job/Toronto-ENGINEERING-TECHNOLOGIST-TECHNICIAN-3-ON-M5V-3C6/604310717/",
+      "source": "Official career page · City of Toronto",
+      "description": "Maintain and improve the Toronto Water Asset Geodatabase by interpreting engineering records, digitizing water, wastewater and stormwater assets, validating data, and preparing maps and summaries with ArcGIS, QGIS and Microsoft tools.",
+      "posted_date": "2026-07-15",
+      "closing_date": "2026-07-29",
+      "salary": "$38.20–$41.70/hour",
+      "employment_type": "Full-time, permanent",
+      "workplace": "On-site / GTA travel as needed",
+      "region": "Toronto",
+      "province": "ON",
+      "country": "Canada",
+      "categories": [
+        "GIS & Geospatial",
+        "Environmental",
+        "Data & Policy"
+      ],
+      "skills": [
+        "ArcGIS",
+        "QGIS",
+        "Geodatabase"
+      ],
+      "match_score": 100,
+      "match_reasons": [
+        "Gis",
+        "Arcgis",
+        "Geodatabase",
+        "Qgis",
+        "Early-career title"
+      ],
+      "new_grad_friendly": true,
+      "seniority": "Early career",
+      "fetched_at": "2026-07-19T18:30:00+00:00"
+    },
+    {
+      "id": "toronto-gis-app-64889",
+      "title": "GIS Application Analyst TW",
+      "company": "City of Toronto",
+      "location": "Toronto, ON",
+      "url": "https://jobs.toronto.ca/jobsatcity/job/Toronto-GIS-APPLICATION-ANALYST-TW-ON-M/604070517/",
+      "source": "Official career page · City of Toronto",
+      "description": "Develop, maintain and support enterprise GIS, geodatabases, ArcGIS Online and web GIS; automate geospatial ETL and validation workflows; test tools and document QA/QC processes.",
+      "posted_date": "2026-07-08",
+      "closing_date": "2026-07-22",
+      "salary": "$47.07–$51.58/hour",
+      "employment_type": "Full-time, temporary",
+      "workplace": "On-site / hybrid not specified",
+      "region": "Toronto",
+      "province": "ON",
+      "country": "Canada",
+      "categories": [
+        "GIS & Geospatial",
+        "Data & Policy"
+      ],
+      "skills": [
+        "ArcGIS Online",
+        "ArcGIS",
+        "Geodatabase"
+      ],
+      "match_score": 100,
+      "match_reasons": [
+        "Gis",
+        "Geospatial",
+        "Arcgis",
+        "Arcgis Online",
+        "Early-career title"
+      ],
+      "new_grad_friendly": true,
+      "seniority": "Early career",
+      "fetched_at": "2026-07-19T18:30:00+00:00"
+    },
+    {
+      "id": "conservation-halton-environmental-planner-2026-07",
+      "title": "Environmental Planner",
+      "company": "Conservation Halton",
+      "location": "Burlington, ON",
+      "url": "https://www.conservationhalton.ca/about-us/employment/",
+      "source": "Conservation Ontario careers",
+      "description": "Contract environmental planning opportunity in Burlington with Conservation Halton. Review the employer page for the full qualifications and application instructions.",
+      "posted_date": "2026-07-17",
+      "closing_date": "2026-08-03",
+      "salary": null,
+      "employment_type": "Contract",
+      "workplace": "Not specified",
+      "region": "GTA",
+      "province": "ON",
+      "country": "Canada",
+      "categories": [
+        "Environmental",
+        "Planning",
+        "Conservation & Natural Resources"
+      ],
+      "skills": [],
+      "match_score": 81,
+      "match_reasons": [
+        "Environmental Planning",
+        "Environmental",
+        "Conservation",
+        "Planning",
+        "GTA"
+      ],
+      "new_grad_friendly": false,
+      "seniority": "Unspecified",
+      "fetched_at": "2026-07-19T18:30:00+00:00"
+    },
+    {
+      "id": "toronto-parks-planner-65039",
+      "title": "Planner, Parks Development & Planning",
+      "company": "City of Toronto",
+      "location": "Toronto, ON (Hybrid)",
+      "url": "https://jobs.toronto.ca/jobsatcity/job/Toronto-PLANNER-PARKS-DEVELOPMENT-%26-PLANNING-ON-M5V-0C4/604042317/",
+      "source": "Official career page · City of Toronto",
+      "description": "Support parkland and recreation-facility planning through land-use analysis, GIS mapping, demographic and policy research, site analysis, public consultation and report preparation.",
+      "posted_date": "2026-07-06",
+      "closing_date": "2026-07-20",
+      "salary": "$52.38–$57.39/hour",
+      "employment_type": "Full-time, temporary (15 months)",
+      "workplace": "Hybrid",
+      "region": "Toronto",
+      "province": "ON",
+      "country": "Canada",
+      "categories": [
+        "GIS & Geospatial",
+        "Planning",
+        "Conservation & Natural Resources",
+        "Data & Policy"
+      ],
+      "skills": [],
+      "match_score": 75,
+      "match_reasons": [
+        "Gis",
+        "Mapping",
+        "Planning",
+        "Toronto"
+      ],
+      "new_grad_friendly": false,
+      "seniority": "Unspecified",
+      "fetched_at": "2026-07-19T18:30:00+00:00"
+    },
+    {
+      "id": "grca-resource-planner-2026-07",
+      "title": "Resource Planner",
+      "company": "Grand River Conservation Authority",
+      "location": "Cambridge, ON (Hybrid)",
+      "url": "https://www.grandriver.ca/media/me3p2fgq/resource-planner-july-2026-updated-posting-with-competencies.pdf",
+      "source": "Conservation Ontario careers · GRCA",
+      "description": "Review municipal planning, zoning, development and environmental assessment applications; interpret natural hazards, land uses, maps and technical reports; communicate conservation authority policy. Requires a degree in Planning, Geography, Environmental Science or a related discipline and minimum three years of related experience. Digital mapping software is required.",
+      "posted_date": "2026-07-17",
+      "closing_date": "2026-07-29",
+      "salary": "$46.92–$56.31/hour",
+      "employment_type": "Full-time, permanent",
+      "workplace": "Hybrid (one work-from-home day/week)",
+      "region": "Ontario",
+      "province": "ON",
+      "country": "Canada",
+      "categories": [
+        "GIS & Geospatial",
+        "Environmental",
+        "Planning",
+        "Conservation & Natural Resources",
+        "Data & Policy"
+      ],
+      "skills": [],
+      "match_score": 50,
+      "match_reasons": [
+        "Land Use",
+        "Zoning",
+        "Mapping",
+        "Municipal",
+        "Recently posted"
+      ],
+      "new_grad_friendly": false,
+      "seniority": "Experienced (3+ years)",
+      "fetched_at": "2026-07-19T18:30:00+00:00"
+    },
+    {
+      "id": "toronto-senior-spatial-64464",
+      "title": "Senior Spatial Specialist (Database Platform and Solutions Specialist)",
+      "company": "City of Toronto",
+      "location": "North York, ON",
+      "url": "https://jobs.toronto.ca/jobsatcity/job/Toronto-Senior-Spatial-Specialist-%28Database-Platform-and-Solutions-Specialist%29-ON-M5V-3C6/603873217/",
+      "source": "Official career page · City of Toronto",
+      "description": "Design, support and govern enterprise geospatial data repositories and ArcGIS platforms, with database development, automation, integration, testing and technical documentation responsibilities.",
+      "posted_date": "2026-06-29",
+      "closing_date": "2026-07-21",
+      "salary": "$58.30–$63.91/hour",
+      "employment_type": "Full-time, temporary (12 months)",
+      "workplace": "Hybrid / flexible",
+      "region": "Toronto",
+      "province": "ON",
+      "country": "Canada",
+      "categories": [
+        "GIS & Geospatial",
+        "Data & Policy"
+      ],
+      "skills": [
+        "ArcGIS"
+      ],
+      "match_score": 44,
+      "match_reasons": [
+        "Gis",
+        "Geospatial",
+        "Arcgis",
+        "Spatial Data",
+        "Toronto"
+      ],
+      "new_grad_friendly": false,
+      "seniority": "Senior",
+      "fetched_at": "2026-07-19T18:30:00+00:00"
+    }
+  ]
+}
